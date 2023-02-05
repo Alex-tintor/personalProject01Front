@@ -1,0 +1,47 @@
+.facebook{
+    font-size: 65px;
+}
+.principal-container{
+    background-color:      var(--gray-background);
+    height: 720px;
+}
+.footer-content{
+    width: 52%;
+}
+.more-button{
+    border:1px solid rgba(128, 128, 128, 0.141) ;
+    background-color: rgba(128, 128, 128, 0.152);
+}
+.more-button:hover{
+    background-color: rgba(128, 128, 128, 0.203);
+    cursor: pointer;
+}
+.lenguague{
+    font-size: 13px;
+    color:rgba(0, 0, 0, 0.512) ;
+}
+.lenguague:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color:rgba(0, 0, 0, 0.612) ;
+}
+.other{
+    font-size: 13px;
+    color:rgba(0, 0, 0, 0.612) ;
+}
+.other:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color:rgba(0, 0, 0, 0.612) ;
+}
+
+.credits{
+    font-size: 13px;
+    color:rgba(0, 0, 0, 0.712) ;
+    text-decoration: none;
+}
+.credits:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color:rgba(0, 0, 0, 0.712) ;
+}

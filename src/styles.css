@@ -1,0 +1,31 @@
+:root{
+    --principal-grey:rgba(128, 128, 128, 0.11);
+    --secondary-grey:rgba(128, 128, 128, 1.11);
+    --gray-background:#f0f2f5;
+}
+.input{
+    border: 1px solid rgba(128, 128, 128, 0.341) ;
+    border-radius:5px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+.input2{
+    border: 1px solid rgba(128, 128, 128, 0.341) ;
+    border-radius:5px;
+    padding-top: 8px;
+    padding-bottom:10px ;
+    padding-left:12px ;
+    padding-right: 12px;
+    width:190px ;
+    margin-left:4px ;
+    margin-right:4px  ;
+    font-size: 15px;
+}
+.input:focus{
+    outline: 1px solid rgb(0, 123, 255) ;
+}
+.input2:focus{
+    outline: 1px solid rgb(0, 123, 255) ;
+}

@@ -1,0 +1,33 @@
+.green-custom{
+    background-color: rgb(0, 181, 12);
+    
+}
+.principal-container{
+    width: 396px;
+}
+.redirect-new-page{
+    text-decoration: none;
+}
+.redirect-new-page:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.green-custom:hover{
+    cursor: pointer;
+}
+div.modal-body{
+    padding-left: 28px ;
+    padding-right:28px ;
+}
+.recover-password{
+    text-decoration: none;
+}
+.recover-password:hover{
+    cursor:pointer ;
+    text-decoration: underline;
+}
+.input-create-account{
+    border:1px solid var(--secondary-grey) ;
+    border-radius:3px  ;
+    background-color: var(--principal-grey);
+}

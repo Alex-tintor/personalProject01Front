@@ -1,0 +1,54 @@
+<div  class="row justify-content-center  bg-white shadow rounded-3 m-0 p-3 principal-container ">
+    <input class="input " type="text" placeholder="Correo electronico o numero de telefono">
+    <input class="input" type="text" placeholder="Contraseña">
+    <p class="btn btn-primary fw-bold fs-5 mt-3">Iniciar sesion</p>
+    <a class=" text-center recover-password " (click)="route.navigate(['login/identify'])">¿Olvidaste tu contraseña?</a>
+    <hr class="mt-4">
+    <p class="green-custom text-white fw-bold fs-5 w-auto py-2 px-3 rounded-3 "data-bs-toggle="modal" data-bs-target="#staticBackdrop">Crear nueva cuenta</p>
+</div>
+<div class="row justify-content-center principal-container ">
+    <p class="my-4 text-center px-3"><a (click)="route.navigate(['page/create'])" class="fw-bold text-dark redirect-new-page">Crea una página</a> para una celebridad, una marca o un negocio.</p>
+</div>
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content ">
+        <div class="modal-header">
+          <h1 class="modal-title fs-2 fw-bold mb-0" id="staticBackdropLabel">Registrarte <h5 class="fs-6 fw-light">Es rápido y        
+              fácil.</h5></h1>
+          <button type="button" class="btn-close align-self-start" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body  py-3 px-3">
+          <div class="row justify-content-center p-0 m-0">
+              <input class="col-6  input-create-account px-2  py-2 fs-6" type="text" placeholder="Nombre">
+              <input class="col-6 input-create-account px-2  py-2 fs-6" type="text" placeholder="Apellido">
+            <input class="col-12  input-create-account px-2 m-1 py-2 fs-6" type="text" placeholder="Número de celular o correo electronico">
+            <input class="col-`12  input-create-account px-2 m-1 py-2 fs-6" type="text" placeholder="Contraseña nueva">
+            <label for="">fecha de nacimiento</label>
+            <select class="col-4  input-create-account px-2 m-1 py-2 fs-6" name="" id="">
+              <option *ngFor="let day of days"></option>
+            </select>
+            <select class="col-4  input-create-account px-2 m-1 py-2 fs-6" name="" id=""></select>
+            <select class="col-4  input-create-account px-2 m-1 py-2 fs-6" name="" id=""></select>
+            <label for="">sexo</label>
+            <span class="col-4  input-create-account px-2 m-1 py-2 fs-6">
+              <label for="">Mujer</label>
+              <input type="radio  input-create-account px-2 m-1 py-2 fs-6">
+            </span>
+            <span class="col-4  input-create-account px-2 m-1 py-2 fs-6">
+              <label for="">Hombre</label>
+              <input type="radio  input-create-account px-2 m-1 py-2 fs-6">
+            </span>
+            <span class="col-4  input-create-account px-2 m-1 py-2 fs-6">
+              <label for="">Personalizado</label>
+              <input type="radio">
+            </span>
+            <p></p>
+            <p class="  green-custom text-white fw-bold fs-5 w-auto py-2 px-5 rounded-3">Registrarte</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
